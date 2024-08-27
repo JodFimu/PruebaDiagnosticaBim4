@@ -16,4 +16,9 @@ public class Computadora extends Dispositivo {
             System.out.println("clave incorrecta");
         }
     }
+
+    public void mostrarInformacion(){
+
+        System.out.println("marca: " + marca + " modelo: " + modelo + " año: " + anio + " Sistema operativo: " + sistemaOperativo);
+    }
 }
