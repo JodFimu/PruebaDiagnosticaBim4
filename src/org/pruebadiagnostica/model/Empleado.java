@@ -42,7 +42,13 @@ public abstract class Empleado {
     public abstract void trabajar();
     
     public void trabajar(int horas){
-        System.out.println(nombre + "trabaja " + horas + " horas");
+        System.out.println(nombre + " " + "trabaja " + horas + " horas");
     }
+
+    @Override
+    public String toString() {
+        return "Empleado{" + "nombre=" + nombre + ", edad=" + edad + ", salario=" + salario + '}';
+    }
+    
     
 }
