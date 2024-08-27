@@ -8,7 +8,7 @@ public abstract class Dispositivo {
 
     public abstract void encender();
 
-    public void encender(String codigo){
+    public void encender(int voltaje){
         
     }
 }
