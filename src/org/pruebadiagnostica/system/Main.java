@@ -34,7 +34,7 @@ public class Main {
 
             switch (op) {
                 case 1:
-                    probarInstancias()
+                    probarInstancias();
                     break;
                 case 2:
                     menuEjercicio2();
