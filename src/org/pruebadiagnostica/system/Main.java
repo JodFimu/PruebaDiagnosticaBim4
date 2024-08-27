@@ -4,7 +4,7 @@
  */
 package org.pruebadiagnostica.system;
 
-import org.pruebadiagnostica.model.Circulo;
+
 
 /**
  *
@@ -16,9 +16,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Circulo c = new Circulo();
-        
-        c.calcularArea();
+
     }
     
 }
