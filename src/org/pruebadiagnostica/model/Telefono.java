@@ -6,7 +6,7 @@ public class Telefono extends Dispositivo {
 
     @Override
     public void encender() {
-        
+        System.out.println("telefono encendido");
     }
 
     public void encender(String codigo){
