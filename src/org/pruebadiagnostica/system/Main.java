@@ -34,10 +34,10 @@ public class Main {
 
             switch (op) {
                 case 1:
-                
+                    probarInstancias()
                     break;
                 case 2:
-                    
+                    menuEjercicio2();
                     break; 
                 case 3:
                     
@@ -80,7 +80,7 @@ public class Main {
       System.out.println(miEmpleado2);
         }
 
-        public void menuEjercicio2(){
+        public static void menuEjercicio2(){
             Circulo c = new Circulo();
             Triangulo tr = new Triangulo();
             Cuadrado cr = new Cuadrado();
