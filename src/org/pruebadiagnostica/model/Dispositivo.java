@@ -11,4 +11,9 @@ public abstract class Dispositivo {
     public void encender(int voltaje){
         
     }
+
+    public void mostrarInformacion(){
+
+        System.out.println("marca: " + marca + "modelo: " + modelo + "año: " + anio);
+    }
 }
