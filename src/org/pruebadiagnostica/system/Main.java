@@ -1,20 +1,42 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package org.pruebadiagnostica.system;
 
-/**
- *
- * @author JoseDavid
- */
-public class Main {
+import java.util.Scanner;
 
-    /**
-     * @param args the command line arguments
-     */
+public class Main {
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        menu();
     }
     
+    public static void menu(){
+        Scanner sc = new Scanner(System.in)
+
+        boolean flag=true;
+        byte op;
+
+        while(flag=true){
+            System.out.println("que ejercicio quiere probar");
+            System.out.println("1: ejercicio 1");
+            System.out.println("2: ejercicio 2");
+            System.out.println("3: ejercicio 3");
+            System.out.println("4. salir");
+            op=sc.nextByte();
+
+            switch (op) {
+                case 1:
+                    
+                    break;
+                case 2:
+                    
+                    break; 
+                case 3:
+                    
+                    break;          
+                case 4:
+                    System.exit(0);
+                    break;
+            }
+
+        }
+    }
 }
