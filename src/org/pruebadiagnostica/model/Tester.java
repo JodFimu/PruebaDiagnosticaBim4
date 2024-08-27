@@ -20,4 +20,10 @@ public class Tester extends Empleado{
     public void trabajar(String herramienta, String proyecto) {
         System.out.println( this.getNombre() + " está testeando el proyecto: " + proyecto + " usando la herramienta de: " + herramienta );
     }
+
+    @Override
+    public String toString() {
+        return "Tester{" + "tipoDePruebas=" + tipoDePruebas + '}';
+    }
+    
 }
