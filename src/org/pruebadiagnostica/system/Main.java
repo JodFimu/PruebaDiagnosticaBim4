@@ -9,7 +9,7 @@ public class Main {
     }
     
     public static void menu(){
-        Scanner sc = new Scanner(System.in)
+        Scanner sc = new Scanner(System.in);
 
         boolean flag=true;
         byte op;
@@ -39,4 +39,6 @@ public class Main {
 
         }
     }
+
+
 }

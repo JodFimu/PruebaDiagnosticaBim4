@@ -14,13 +14,32 @@ public class Televisor extends Dispositivo{
     }
 
     public void mostrarInformacion(){   
-        System.out.println("marca: " + marca + "modelo: " + modelo + "año: " + anio + " tamaño pantalla: " + tamanioPantalla);
+        System.out.println("marca: " + marca + "modelo: " + modelo + "año: " + anio + " tamaño pantalla: " + tamanioPantalla + "volumen: " + volumenTV);
     }    
 
     public void encender( int volumen){
-        if(volumenTV==0){
-            
+        System.out.println("volumen en: " + volumenTV);
+        System.out.println("1. subir volumen");
+        System.out.println("2. bajar volumen");
+        byte op = sc.nextByte();
+
+        switch (op) {
+            case 1:
+                volumen=subirVol(volumen);
+                break;
+            case 2:
+                volumen=bajarVol(volumen);
+                break;
         }
+
+        volumenTV= volumen;
     }
 
+    public int subirVol(int volumen){
+        return volumen++;
+    }
+
+    public int bajarVol(int volumen){
+        return volumen--;
+    }
 }
