@@ -1,13 +1,22 @@
 package org.pruebadiagnostica.model;
 
 public class Telefono extends Dispositivo {
-
+    String codigoTelefono = "kinal";
     String tipo;
-    
+
     @Override
     public void encender() {
         
     }
+
+    public void encender(String codigo){
+        if(codigo.equals(codigoTelefono)){
+            System.out.println("telefono encendido");
+        }else{
+            System.out.println("codigo incorrecto");
+        }
+    }
+
 
     
 }
