@@ -22,5 +22,11 @@ public class Desarrollador extends Empleado{
     public void trabajar(String proyecto) {
         System.out.println( this.getNombre() + " se ncuentra trabajando en el proyecto de: " + proyecto);
     }
+
+    @Override
+    public String toString() {
+        return "Desarrollador{" + "lenguajeDeProgramacion=" + lenguajeDeProgramacion + '}';
+    }
+    
 }
 
