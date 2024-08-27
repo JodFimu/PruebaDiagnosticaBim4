@@ -6,7 +6,7 @@ public class Computadora extends Dispositivo {
 
     @Override
     public void encender() {
-        System.out.println("Computadora encendido");
+        System.out.println("Computadora encendida");
     }
     
     public void encender(String clave){
