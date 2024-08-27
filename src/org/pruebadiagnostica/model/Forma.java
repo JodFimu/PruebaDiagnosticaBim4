@@ -26,8 +26,8 @@ public abstract class Forma {
     
     public abstract void calcularArea();
     
-    public void calcularArea(String mensaje){
-    
+    public String calcularArea(String mensaje){
+     return mensaje;
     }
     
 }
