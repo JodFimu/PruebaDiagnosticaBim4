@@ -2,9 +2,15 @@ package org.pruebadiagnostica.system;
 
 import java.util.Scanner;
 
+import org.pruebadiagnostica.model.Circulo;
+import org.pruebadiagnostica.model.Cuadrado;
 import org.pruebadiagnostica.model.Desarrollador;
 import org.pruebadiagnostica.model.Empleado;
+import org.pruebadiagnostica.model.Rectangulo;
 import org.pruebadiagnostica.model.Tester;
+import org.pruebadiagnostica.model.Triangulo;
+
+import javafx.scene.shape.TriangleMesh;
 
 public class Main {
     
@@ -74,4 +80,38 @@ public class Main {
       System.out.println(miEmpleado2);
         }
 
+        public void menuEjercicio2(){
+            Circulo c = new Circulo();
+            Triangulo tr = new Triangulo();
+            Cuadrado cr = new Cuadrado();
+            Rectangulo rc = new Rectangulo();
+
+            Scanner sc = new Scanner(System.in);
+
+            System.out.println("que quieres hacer?");
+            System.out.println("1. circulo");
+            System.out.println("2. triangulo");
+            System.out.println("3. cuadrado");
+            System.out.println("4. recctangulo");
+            byte op = sc.nextByte();
+
+            switch (op) {
+                case 1:
+                    c.calcularArea();
+                    break;
+                case 2:
+                    tr.calcularArea();
+                    break;
+                case 3:
+                    cr.calcularArea();
+                     break;
+                
+                case 4:
+                    rc.calcularArea();
+                    break;
+            
+                default:
+                    break;
+            }
+        }
 }
