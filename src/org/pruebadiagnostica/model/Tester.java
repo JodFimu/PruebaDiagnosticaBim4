@@ -23,7 +23,7 @@ public class Tester extends Empleado{
 
     @Override
     public String toString() {
-        return "Tester{" + "tipoDePruebas=" + tipoDePruebas + '}';
+        return "Desarrollador{" + "Nombre: " + this.getNombre()+ "," + "Edad: " + this.getEdad()+ "," + "Salario: " + this.getSalario()+ "," + "Tipo de pruebas =" + tipoDePruebas + '}';
     }
     
 }
