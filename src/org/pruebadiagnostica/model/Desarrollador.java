@@ -25,7 +25,7 @@ public class Desarrollador extends Empleado{
 
     @Override
     public String toString() {
-        return "Desarrollador{" + "lenguajeDeProgramacion=" + lenguajeDeProgramacion + '}';
+        return "Desarrollador{" + "Nombre: " + this.getNombre()+ "," + "Edad: " + this.getEdad()+ "," + "Salario: " + this.getSalario()+ "," + "lenguajeDeProgramacion=" + lenguajeDeProgramacion + '}';
     }
     
 }
