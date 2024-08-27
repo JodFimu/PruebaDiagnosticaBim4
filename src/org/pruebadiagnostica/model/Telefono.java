@@ -17,6 +17,8 @@ public class Telefono extends Dispositivo {
         }
     }
 
-
+    public void mostrarInformacion(){
+        System.out.println("marca: " + marca + " modelo: " + modelo + " año: " + anio + " tipo: " + tipo);
+    }
     
 }
